@@ -1,7 +1,10 @@
 const tl = gsap.timeline({defaults: { ease: "power1.out" } }); //koliko dugo želimo da se svaka animacija dogodi
 
-tl.to(".text", { y: "0%", duration: 1, stagger: 0.35});
-tl.to(".text2", { y: "0%", duration: 1, stagger: 0.15});
+tl.to(".text1", { y: "0%", duration: 0.8});
+tl.to(".text4", { y: "0%", duration: 0.8});
+tl.to(".text3", { y: "0%", duration: 0.8});
+tl.to(".text2", { y: "0%", duration: 0.8});
+tl.to(".text5", { y: "0%", duration: 1, stagger: 0.15});
 tl.to(".slider", { y: "-100%", duration: 1.5, delay: 0.5});
 tl.to(".intro", { y: "-100%", duration: 1}, "-=1"); 
 
