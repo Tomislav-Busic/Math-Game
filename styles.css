@@ -1,10 +1,11 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Bangers', cursive;
     margin: 0;
     color: #333;
   }
   
   .main-ui {
+    padding-top: 10%;
     max-width: 800px;
     margin: 0 auto;
   }
@@ -12,6 +13,11 @@ body {
   .our-form {
     display: flex;
     justify-content: center;
+}
+
+.drpar{
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .boxes {
@@ -115,3 +121,51 @@ body.overlay-is-open .main-ui {
   .reset-button:focus {
     background-color: #00275a;
   }
+
+.intro{
+    background:  black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    background:  rgb(91, 153, 107);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%); /*da se spusti skroz dolje*/
+}
+
+.intro-text{
+    color: rgb(13, 238, 69);
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+}
+
+.hide{
+    background: black;
+    overflow: hidden;
+}
+
+.hide span{
+    transform: translateY(100%);
+    display: inline-block; /*to su inline elementi pa nam ovo omogućava da pomičemo gore dolje*/
+}
+
+@media (max-width: 400px) {
+    .intro-text{
+        font-size: 18px;
+    }
+    .text{
+        font-size: 50px;
+        font-weight: bold;
+    }
+}
