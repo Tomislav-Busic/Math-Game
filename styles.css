@@ -2,6 +2,9 @@ body {
     font-family: 'Bangers', cursive;
     margin: 0;
     color: #333;
+    background-image: url('./pic/math.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
   
   .main-ui {
@@ -18,6 +21,9 @@ body {
 .drpar{
     font-size: 25px;
     font-weight: bold;
+    color: yellow;
+    font-family: 'Zen Dots', cursive;
+    text-align: center;
 }
 
 .boxes {
